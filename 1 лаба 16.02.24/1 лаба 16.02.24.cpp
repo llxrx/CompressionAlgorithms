@@ -4,6 +4,7 @@
 #include "BTW.h"
 #include "OPEN_BWT_FILE.h"
 #include "MTF.h"
+#include "Arithmetic_coding.h"
 #include "Entropia.h"
 
 struct file_name_enum {
@@ -128,7 +129,10 @@ int main() {
 	//double result = entropy(probabilities);
 	//cout << "Entropy: " << result << endl;
 
-
+	double c = Arithmetic_Coding();
+	Arithmetic_DeCoding(c);
+	cout << "\n\n\n\n";
+	
 	MTF mtf;
 	string a, b, start_str = "to be or not to be";
 	string str = Coder_Burrows_Wheeler_Transform(start_str);

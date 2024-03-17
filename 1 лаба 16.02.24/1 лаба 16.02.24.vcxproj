@@ -128,6 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="1 лаба 16.02.24.cpp" />
+    <ClCompile Include="Arithmetic_coding.cpp" />
     <ClCompile Include="BTW.cpp" />
     <ClCompile Include="Entropia.cpp" />
     <ClCompile Include="MTF.cpp" />
@@ -135,6 +136,7 @@
     <ClCompile Include="RLE.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Arithmetic_coding.h" />
     <ClInclude Include="BTW.h" />
     <ClInclude Include="Entropia.h" />
     <ClInclude Include="MTF.h" />
