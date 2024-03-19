@@ -1,10 +1,10 @@
 #include "Arithmetic_coding.h"
 
 struct {
-    static std::pair<double, double> getProbability(char c)
+    static pair<double, double> getProbability(char c)
     {
         if (c >= 'A' && c <= 'Z')
-            return std::make_pair((c - 'A') * .01, (c - 'A') * .01 + .01);
+            return make_pair((c - 'A') * .01, (c - 'A') * .01 + .01);
         else
             throw "character out of range";
     }
@@ -31,7 +31,7 @@ double Arithmetic_Coding()
         low = low + range * p.first;
     }
     double end = low + (high - low) / 2;
-    cout << setprecision(11) << end;
+    cout << setprecision(11) << end << "\n";
 
     return end;
 }
@@ -43,10 +43,10 @@ void Arithmetic_DeCoding(double message) {
     {
         double range = high - low;
         char c = model.getSymbol((message - low) / range);
-        std::cout << c;
+        cout << c;
         if (c == 'Z')
             return ;
-        std::pair<double, double> p = model.getProbability(c);
+        pair<double, double> p = model.getProbability(c);
         high = low + range * p.second;
         low = low + range * p.first;
     }

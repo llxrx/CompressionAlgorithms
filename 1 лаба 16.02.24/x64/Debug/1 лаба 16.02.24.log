@@ -1,5 +1,2 @@
-﻿  1 лаба 16.02.24.cpp
-C:\Users\ores-\source\repos\leetcode\1 лаба 16.02.24\1 лаба 16.02.24\1 лаба 16.02.24.cpp(92,21): warning C4267: инициализация: преобразование из "size_t" в "unsigned int"; возможна потеря данных
-C:\Users\ores-\source\repos\leetcode\1 лаба 16.02.24\1 лаба 16.02.24\1 лаба 16.02.24.cpp(93,26): warning C4267: инициализация: преобразование из "size_t" в "unsigned int"; возможна потеря данных
-C:\Users\ores-\source\repos\leetcode\1 лаба 16.02.24\1 лаба 16.02.24\1 лаба 16.02.24.cpp(102,15): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+﻿  Arithmetic_coding.cpp
   1 лаба 16.02.24.vcxproj -> C:\Users\ores-\source\repos\leetcode\1 лаба 16.02.24\x64\Debug\1 лаба 16.02.24.exe
