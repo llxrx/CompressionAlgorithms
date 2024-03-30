@@ -5,8 +5,10 @@
 #include <locale>
 #include <vector>
 #include <iomanip>
+#include <map>
 
 using namespace std;
 
-double Arithmetic_Coding();
-void Arithmetic_DeCoding(double message);
+map<char, double>Probability(string& str);
+double Arithmetic_Coding(string &str);
+void Arithmetic_DeCoding(double message, string& str, map<char, double> mmap);

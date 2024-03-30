@@ -39,8 +39,8 @@ bool Equal_Text(string& str, const string& decoded_str) {
 }
 
 string Coder_Run_Len_Encoding(string& str, float * compression_Rate_in_percent) {
-	ofstream rle_RAW("RLE_RAW.raw", ios::out);
-	ofstream rle("RLE.txt", ios::out);
+	//ofstream rle_RAW("output_files/RLE_RAW.raw", ios::out);
+	ofstream rle("output_files/RLE.txt", ios::out);
 
 	string str_2;
 	for (size_t i = 0; i < str.length(); i++) {
@@ -86,15 +86,15 @@ string Coder_Run_Len_Encoding(string& str, float * compression_Rate_in_percent) 
 	//cout << "Length after RLE: " << str_2.length() << "\n";
 	float Compression_Rate = (float)str_2.length() / (float)str.length();
 	*compression_Rate_in_percent = (1 - Compression_Rate) * 100;
-	//cout << "Compression Rate = " << (*compression_Rate_in_percent) << "%" << "\n";
+	cout << "Compression Rate = " << (*compression_Rate_in_percent) << "%" << "\n";
 	return str_2;
 }
 
 string Decoder_Run_Len_Encoding(const string& encoded_str) {
 	try {
 		//cout << "\n\nDECODER\n\n\n";
-		ofstream enwik7_decoder("enwik7_decoder.txt", ios::out);
-		ofstream raw_decoder("RAW_DECODER.raw", ios::out);
+		ofstream enwik7_decoder("output_files/RLE_decoder.txt", ios::out);
+		//ofstream raw_decoder("output_files/RAW_DECODER.raw", ios::out);
 
 		string number;
 
@@ -239,8 +239,8 @@ string Decoder_Run_Len_Encoding(const string& encoded_str) {
 
 string Start_RLE(string& str, string *cod, float *comp_Rate) {
 	string coder = Coder_Run_Len_Encoding(str, comp_Rate);
-	cod->append(str);
+	cod->append(coder);
 	string decoder = Decoder_Run_Len_Encoding(coder);
-	Equal_Text(str, decoder);
+	//Equal_Text(str, decoder);
 	return decoder;
 }
