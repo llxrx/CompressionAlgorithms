@@ -1,20 +1,11 @@
 #pragma once
 #include <iostream>
-#include <iterator>
-#include <sstream>
+#include <fstream>
+#include <cstring>
 #include <vector>
 
 using namespace std;
 
-class MTF
-{
-public:
-	char symbolTable[27];
-	string encode(string str);
-	string decode(string str);
-
-private:
-	void moveToFront(int i);
-	void fillSymbolTable();
-	
-};
+int search(char input_char, string& list);
+void moveToFront(int curr_index, string& list);
+int* mtfEncode(string& input_text, string& list, int* output_arr);

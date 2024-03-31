@@ -33,7 +33,8 @@ int main() {
 	unsigned int choose_file;
 	cout << "Choose file\n";
 	cout << "1 - RLE\n";
-	cout << "2 - BWT\n";
+	cout << "2 - BWT + RLE\n";
+	cout << "3 - MTF\n";
 	cout << "Your Choose: ";
 	cin >> choose_file;
 
@@ -154,27 +155,71 @@ int main() {
 		END_BWT.close();
 		break;
 	}
+	case 3:
+	{
+		ofstream END_BWT("output_files/END_BWT.bmp", ios::out);
+		ofstream END("output_files/END.bmp", ios::out);
+		ofstream END1("output_files/END.txt", ios::out);
+		ofstream final("output_files/FINAL.txt", ios::out);
+
+		string str;
+		string strh;
+		string file_name;
+		unsigned int choose;
+		file_name_enum f_n_e;
+
+		cout << "Choose file\n";
+		cout << "1 - enwik7\n";
+		cout << "2 - test\n";
+		cout << "3 - Russian_text\n";
+		cout << "4 - image\n";
+		cout << "5 - raw white-black\n";
+		cout << "6 - raw grey\n";
+		cout << "Your Choose: ";
+		cin >> choose;
+
+		file_name = file_name_map[choose];
+
+		ifstream FILE(file_name, ios::in);
+
+		while (!FILE.eof()) {
+			getline(FILE, strh);
+			str += strh;
+			if (!FILE.eof()) {
+				str += '\n';
+			}
+		}
+		cout << "file lenght - " << str.length() << "\n";
+
+		string str_end;
+		string cod;
+		string asd;
+
+		string list;
+
+		for (size_t i = 0; i < 256; i++) {
+			list.push_back((char)i);
+		}
+
+		
+
+		for (size_t i = 0; i < 1; i++) {
+			string BWT = Coder_Burrows_Wheeler_Transform(str);
+
+			int* output_arr = new int[BWT.length()];
+
+			cout << "Move to Front Transform: ";
+
+			int* mtf_arr = mtfEncode(BWT, list, output_arr);
+
+			END1 << mtf_arr;
+		}
+	}
 	}
 
 	//Entropy
 	//double result = entropy(probabilities);
 	//cout << "Entropy: " << result << endl;
-
-	
-	/*
-	MTF mtf;
-	string a, b, start_str = "to be or not to be";
-	string str = Coder_Burrows_Wheeler_Transform(start_str);
-
-	a = str;
-	cout << a << " -> encoded = ";
-	a = mtf.encode(a);
-	b = mtf.decode(a);
-	cout << a << "; \ndecoded = " << mtf.decode(a) << "\n\n";
-
-	string end_str = DeCoder_Burrows_Wheeler_Transform(str, b);
-	cout << end_str << "\n";
-	*/
 
 	return 0;
 }
