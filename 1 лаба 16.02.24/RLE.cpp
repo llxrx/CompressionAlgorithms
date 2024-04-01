@@ -25,7 +25,6 @@ bool isDigit(char c) {
 }
 
 bool Equal_Text(string& str, const string& decoded_str) {
-
 	for (size_t i = 0; i < str.length(); i++) {
 		if (str[i] != decoded_str[i]) {
 			cout << "str" << " " << i << " - " << str[i] << "\n";
@@ -39,9 +38,6 @@ bool Equal_Text(string& str, const string& decoded_str) {
 }
 
 string Coder_Run_Len_Encoding(string& str, float * compression_Rate_in_percent) {
-	//ofstream rle_RAW("output_files/RLE_RAW.raw", ios::out);
-	ofstream rle("output_files/RLE.txt", ios::out);
-
 	string str_2;
 	for (size_t i = 0; i < str.length(); i++) {
 		int counter = 1;
@@ -80,7 +76,6 @@ string Coder_Run_Len_Encoding(string& str, float * compression_Rate_in_percent) 
 		}
 		
 	}
-	rle << str_2;
 	//cout << str_2 << "\n";
 	//cout << "Length before RLE: " << str.length() << "\n";
 	//cout << "Length after RLE: " << str_2.length() << "\n";
@@ -90,12 +85,56 @@ string Coder_Run_Len_Encoding(string& str, float * compression_Rate_in_percent) 
 	return str_2;
 }
 
+string Coder_Run_Len_Encoding(string& str) {
+	string str_2;
+	for (size_t i = 0; i < str.length(); i++) {
+		int counter = 1;
+		/*
+		if (isDigit(str[i]) == true) {
+			str_2.push_back(str[i]);
+			int digit_count = 1;
+			while (isDigit(str[i + digit_count]) == true || str[i + digit_count] == '.' || str[i + digit_count] == ',') {
+				str_2.push_back(str[i + digit_count]);
+				digit_count++;
+			}
+			//i = digit_count + 1;
+			str_2.push_back(SCHAR_MIN);
+			i += digit_count - 1;
+			continue;
+		}
+		*/
+		while (str[i] == str[i + counter]) {
+			counter++;
+			if ((i + counter > str.length())) {
+				break;
+			}
+			//i++;
+		}
+		//cout << "";
+		string string_counter = to_string(counter);
+		if (counter > 3) {
+			str_2.push_back((char)M_I_N);
+			str_2.append(string_counter);
+			str_2.push_back((char)M_A_X);
+			str_2.push_back(str[i]);
+			i += counter - 1;
+		}
+		else {
+			str_2.push_back(str[i]);
+		}
+
+	}
+	//cout << str_2 << "\n";
+	//cout << "Length before RLE: " << str.length() << "\n";
+	//cout << "Length after RLE: " << str_2.length() << "\n";
+	float Compression_Rate = (float)str_2.length() / (float)str.length();
+	//*compression_Rate_in_percent = (1 - Compression_Rate) * 100;
+	cout << "Compression Rate = " << Compression_Rate << "%" << "\n";
+	return str_2;
+}
+
 string Decoder_Run_Len_Encoding(const string& encoded_str) {
 	try {
-		//cout << "\n\nDECODER\n\n\n";
-		ofstream enwik7_decoder("output_files/RLE_decoder.txt", ios::out);
-		//ofstream raw_decoder("output_files/RAW_DECODER.raw", ios::out);
-
 		string number;
 
 		string decoded_text;
@@ -124,8 +163,6 @@ string Decoder_Run_Len_Encoding(const string& encoded_str) {
 				decoded_text.push_back(encoded_str[i]);
 			}
 		}
-		//cout << decoded_text.length() << "\n";
-		enwik7_decoder << decoded_text;
 
 		return decoded_text;
 	}
@@ -134,10 +171,9 @@ string Decoder_Run_Len_Encoding(const string& encoded_str) {
 	}
 }
 
+
 /*
 string Coder_Run_Len_Encoding(string& str) {
-	ofstream rle_RAW("RLE_RAW.raw", ios::out);
-	ofstream rle("RLE.txt", ios::out);
 
 	string str_2;
 	for (size_t i = 0; i < str.length(); i++) {
@@ -180,8 +216,6 @@ string Coder_Run_Len_Encoding(string& str) {
 /*
 string Decoder_Run_Len_Encoding(const string& encoded_str) {
 	cout << "\n\nDECODER\n\n\n";
-	ofstream enwik7_decoder("enwik7_decoder.txt", ios::out);
-	ofstream raw_decoder("RAW_DECODER.raw", ios::out);
 
 	string decoded_text;
 	for (size_t i = 0; i < encoded_str.length(); i++) {
@@ -239,8 +273,11 @@ string Decoder_Run_Len_Encoding(const string& encoded_str) {
 
 string Start_RLE(string& str, string *cod, float *comp_Rate) {
 	string coder = Coder_Run_Len_Encoding(str, comp_Rate);
+
 	cod->append(coder);
+
 	string decoder = Decoder_Run_Len_Encoding(coder);
+
 	//Equal_Text(str, decoder);
 	return decoder;
 }

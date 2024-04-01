@@ -131,6 +131,7 @@
     <ClCompile Include="Arithmetic_coding.cpp" />
     <ClCompile Include="BTW.cpp" />
     <ClCompile Include="Entropia.cpp" />
+    <ClCompile Include="final_compressor.cpp" />
     <ClCompile Include="MTF.cpp" />
     <ClCompile Include="OPEN_BWT_FILE.cpp" />
     <ClCompile Include="RLE.cpp" />
@@ -139,6 +140,7 @@
     <ClInclude Include="Arithmetic_coding.h" />
     <ClInclude Include="BTW.h" />
     <ClInclude Include="Entropia.h" />
+    <ClInclude Include="final_compressor.h" />
     <ClInclude Include="MTF.h" />
     <ClInclude Include="OPEN_BWT_FILE.h" />
     <ClInclude Include="RLE.h" />
