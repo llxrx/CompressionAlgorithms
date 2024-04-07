@@ -1,15 +1,28 @@
 #pragma once
-#include <iostream>
-#include <chrono>
-#include <locale>
-#include <map>
-#include <fstream>
+#include "library.h"
 #include "RLE.h"
 #include "BTW.h"
-#include "OPEN_BWT_FILE.h"
 #include "MTF.h"
 #include "Arithmetic_coding.h"
 #include "Entropia.h"
+#include "Huffman Coding.h"
+#include "fast_BWT.h"
+
+using namespace std;
+
+template<typename TimeT = std::chrono::milliseconds>
+struct measure
+{
+	template<typename F>
+	static typename TimeT::rep execution(F const& func)
+	{
+		auto start = std::chrono::system_clock::now();
+		func();
+		auto duration = std::chrono::duration_cast<TimeT>(
+			std::chrono::system_clock::now() - start);
+		return duration.count();
+	}
+};
 
 struct file_name_enum_in {
 	string enwik7 = "Text_files/enwik7.txt";
@@ -30,23 +43,32 @@ private:
 	float comp_Rate = 0.0f;
 
 	unsigned int choose_file;
-public:
-	ofstream final_of;
-	ofstream RLE_of;
-	ofstream BWT_of;
-	ofstream RLE_decoder_of;
-	ofstream BWT_decoder_of;
 
+	string file_name;
+	string strh;
+	string str;
+	
+	fstream final_of;
+	fstream RLE_of;
+	fstream BWT_of;
+	fstream MTF_of;
+	fstream Huff_of;
+	fstream RLE_decoder_of;
+	fstream BWT_decoder_of;
+	fstream MTF_decoder_of;
+	fstream Huff_decoder_of;
+public:
 	final_comp();
 	~final_comp();
 
+	
+	void BWT();
 	void Huffman_algorithm_HA();
 	void Arithmetic_algorithm_AC();
 	void Run_Length_encoding_RLE();
 	void BWT_RLE();
-	void BWT_MTF_RLE();
-	void BWT_MTF_AC();
 	void BWT_MTF_RLE_HA();
+	void BWT_MTF_AC();
 	void BWT_MTF_RLE_AC();
 	void LZ77_encoding();
 	void LZ77_HA();

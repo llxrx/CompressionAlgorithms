@@ -1,14 +1,16 @@
 #pragma once
-#include <iostream>
-#include <fstream>
-#include <string>
-#include <locale>
-#include <vector>
-#include <iomanip>
-#include <map>
+#include "library.h"
 
 using namespace std;
+class Arithmetic_Coding {
+private:
+	vector<double> c;
+	vector<double> d;
+	string byte;
+	string final_str;
 
-map<char, double>Probability(string& str);
-double Arithmetic_Coding(string &str);
-void Arithmetic_DeCoding(double message, string& str, map<char, double> mmap);
+public:
+	map<char, double>Probability(string& str);
+	string Arithmetic_Encoder(string& str);
+	void Arithmetic_DeCoding();
+};

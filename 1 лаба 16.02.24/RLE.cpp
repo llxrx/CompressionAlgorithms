@@ -81,7 +81,7 @@ string Coder_Run_Len_Encoding(string& str, float * compression_Rate_in_percent) 
 	//cout << "Length after RLE: " << str_2.length() << "\n";
 	float Compression_Rate = (float)str_2.length() / (float)str.length();
 	*compression_Rate_in_percent = (1 - Compression_Rate) * 100;
-	cout << "Compression Rate = " << (*compression_Rate_in_percent) << "%" << "\n";
+	//cout << "Compression Rate = " << (*compression_Rate_in_percent) << "%" << "\n";
 	return str_2;
 }
 
@@ -129,7 +129,7 @@ string Coder_Run_Len_Encoding(string& str) {
 	//cout << "Length after RLE: " << str_2.length() << "\n";
 	float Compression_Rate = (float)str_2.length() / (float)str.length();
 	//*compression_Rate_in_percent = (1 - Compression_Rate) * 100;
-	cout << "Compression Rate = " << Compression_Rate << "%" << "\n";
+	//cout << "Compression Rate = " << Compression_Rate << "%" << "\n";
 	return str_2;
 }
 

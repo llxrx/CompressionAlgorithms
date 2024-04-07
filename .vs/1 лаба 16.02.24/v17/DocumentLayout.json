@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\ores-\\source\\repos\\leetcode\\1 \u043B\u0430\u0431\u0430 16.02.24\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8F806B43-4383-45A0-96F1-D5CB073AFAD2}|1 \u043B\u0430\u0431\u0430 16.02.24\\1 \u043B\u0430\u0431\u0430 16.02.24.vcxproj|C:\\Users\\ores-\\source\\repos\\leetcode\\1 \u043B\u0430\u0431\u0430 16.02.24\\1 \u043B\u0430\u0431\u0430 16.02.24\\final_compressor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8F806B43-4383-45A0-96F1-D5CB073AFAD2}|1 \u043B\u0430\u0431\u0430 16.02.24\\1 \u043B\u0430\u0431\u0430 16.02.24.vcxproj|solutionrelative:1 \u043B\u0430\u0431\u0430 16.02.24\\final_compressor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F806B43-4383-45A0-96F1-D5CB073AFAD2}|1 \u043B\u0430\u0431\u0430 16.02.24\\1 \u043B\u0430\u0431\u0430 16.02.24.vcxproj|C:\\Users\\ores-\\source\\repos\\leetcode\\1 \u043B\u0430\u0431\u0430 16.02.24\\1 \u043B\u0430\u0431\u0430 16.02.24\\MTF.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8F806B43-4383-45A0-96F1-D5CB073AFAD2}|1 \u043B\u0430\u0431\u0430 16.02.24\\1 \u043B\u0430\u0431\u0430 16.02.24.vcxproj|solutionrelative:1 \u043B\u0430\u0431\u0430 16.02.24\\MTF.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F806B43-4383-45A0-96F1-D5CB073AFAD2}|1 \u043B\u0430\u0431\u0430 16.02.24\\1 \u043B\u0430\u0431\u0430 16.02.24.vcxproj|C:\\Users\\ores-\\source\\repos\\leetcode\\1 \u043B\u0430\u0431\u0430 16.02.24\\1 \u043B\u0430\u0431\u0430 16.02.24\\final_compressor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8F806B43-4383-45A0-96F1-D5CB073AFAD2}|1 \u043B\u0430\u0431\u0430 16.02.24\\1 \u043B\u0430\u0431\u0430 16.02.24.vcxproj|solutionrelative:1 \u043B\u0430\u0431\u0430 16.02.24\\final_compressor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{8F806B43-4383-45A0-96F1-D5CB073AFAD2}|1 \u043B\u0430\u0431\u0430 16.02.24\\1 \u043B\u0430\u0431\u0430 16.02.24.vcxproj|C:\\Users\\ores-\\source\\repos\\leetcode\\1 \u043B\u0430\u0431\u0430 16.02.24\\1 \u043B\u0430\u0431\u0430 16.02.24\\LZ77.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F806B43-4383-45A0-96F1-D5CB073AFAD2}|1 \u043B\u0430\u0431\u0430 16.02.24\\1 \u043B\u0430\u0431\u0430 16.02.24.vcxproj|solutionrelative:1 \u043B\u0430\u0431\u0430 16.02.24\\LZ77.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8F806B43-4383-45A0-96F1-D5CB073AFAD2}|1 \u043B\u0430\u0431\u0430 16.02.24\\1 \u043B\u0430\u0431\u0430 16.02.24.vcxproj|C:\\Users\\ores-\\source\\repos\\leetcode\\1 \u043B\u0430\u0431\u0430 16.02.24\\1 \u043B\u0430\u0431\u0430 16.02.24\\1 \u043B\u0430\u0431\u0430 16.02.24.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{8F806B43-4383-45A0-96F1-D5CB073AFAD2}|1 \u043B\u0430\u0431\u0430 16.02.24\\1 \u043B\u0430\u0431\u0430 16.02.24.vcxproj|solutionrelative:1 \u043B\u0430\u0431\u0430 16.02.24\\1 \u043B\u0430\u0431\u0430 16.02.24.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F806B43-4383-45A0-96F1-D5CB073AFAD2}|1 \u043B\u0430\u0431\u0430 16.02.24\\1 \u043B\u0430\u0431\u0430 16.02.24.vcxproj|C:\\Users\\ores-\\source\\repos\\leetcode\\1 \u043B\u0430\u0431\u0430 16.02.24\\1 \u043B\u0430\u0431\u0430 16.02.24\\MTF.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8F806B43-4383-45A0-96F1-D5CB073AFAD2}|1 \u043B\u0430\u0431\u0430 16.02.24\\1 \u043B\u0430\u0431\u0430 16.02.24.vcxproj|solutionrelative:1 \u043B\u0430\u0431\u0430 16.02.24\\MTF.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{8F806B43-4383-45A0-96F1-D5CB073AFAD2}|1 \u043B\u0430\u0431\u0430 16.02.24\\1 \u043B\u0430\u0431\u0430 16.02.24.vcxproj|C:\\Users\\ores-\\source\\repos\\leetcode\\1 \u043B\u0430\u0431\u0430 16.02.24\\1 \u043B\u0430\u0431\u0430 16.02.24\\Huffman Coding.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F806B43-4383-45A0-96F1-D5CB073AFAD2}|1 \u043B\u0430\u0431\u0430 16.02.24\\1 \u043B\u0430\u0431\u0430 16.02.24.vcxproj|solutionrelative:1 \u043B\u0430\u0431\u0430 16.02.24\\Huffman Coding.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F806B43-4383-45A0-96F1-D5CB073AFAD2}|1 \u043B\u0430\u0431\u0430 16.02.24\\1 \u043B\u0430\u0431\u0430 16.02.24.vcxproj|C:\\Users\\ores-\\source\\repos\\leetcode\\1 \u043B\u0430\u0431\u0430 16.02.24\\1 \u043B\u0430\u0431\u0430 16.02.24\\final_compressor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F806B43-4383-45A0-96F1-D5CB073AFAD2}|1 \u043B\u0430\u0431\u0430 16.02.24\\1 \u043B\u0430\u0431\u0430 16.02.24.vcxproj|solutionrelative:1 \u043B\u0430\u0431\u0430 16.02.24\\final_compressor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F806B43-4383-45A0-96F1-D5CB073AFAD2}|1 \u043B\u0430\u0431\u0430 16.02.24\\1 \u043B\u0430\u0431\u0430 16.02.24.vcxproj|C:\\Users\\ores-\\source\\repos\\leetcode\\1 \u043B\u0430\u0431\u0430 16.02.24\\1 \u043B\u0430\u0431\u0430 16.02.24\\RLE.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F806B43-4383-45A0-96F1-D5CB073AFAD2}|1 \u043B\u0430\u0431\u0430 16.02.24\\1 \u043B\u0430\u0431\u0430 16.02.24.vcxproj|solutionrelative:1 \u043B\u0430\u0431\u0430 16.02.24\\RLE.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F806B43-4383-45A0-96F1-D5CB073AFAD2}|1 \u043B\u0430\u0431\u0430 16.02.24\\1 \u043B\u0430\u0431\u0430 16.02.24.vcxproj|C:\\Users\\ores-\\source\\repos\\leetcode\\1 \u043B\u0430\u0431\u0430 16.02.24\\1 \u043B\u0430\u0431\u0430 16.02.24\\final_compressor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F806B43-4383-45A0-96F1-D5CB073AFAD2}|1 \u043B\u0430\u0431\u0430 16.02.24\\1 \u043B\u0430\u0431\u0430 16.02.24.vcxproj|solutionrelative:1 \u043B\u0430\u0431\u0430 16.02.24\\final_compressor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F806B43-4383-45A0-96F1-D5CB073AFAD2}|1 \u043B\u0430\u0431\u0430 16.02.24\\1 \u043B\u0430\u0431\u0430 16.02.24.vcxproj|C:\\Users\\ores-\\source\\repos\\leetcode\\1 \u043B\u0430\u0431\u0430 16.02.24\\1 \u043B\u0430\u0431\u0430 16.02.24\\Huffman Coding.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F806B43-4383-45A0-96F1-D5CB073AFAD2}|1 \u043B\u0430\u0431\u0430 16.02.24\\1 \u043B\u0430\u0431\u0430 16.02.24.vcxproj|solutionrelative:1 \u043B\u0430\u0431\u0430 16.02.24\\Huffman Coding.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,8 +38,35 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "1 \u043B\u0430\u0431\u0430 16.02.24.cpp",
+              "DocumentMoniker": "C:\\Users\\ores-\\source\\repos\\leetcode\\1 \u043B\u0430\u0431\u0430 16.02.24\\1 \u043B\u0430\u0431\u0430 16.02.24\\1 \u043B\u0430\u0431\u0430 16.02.24.cpp",
+              "RelativeDocumentMoniker": "1 \u043B\u0430\u0431\u0430 16.02.24\\1 \u043B\u0430\u0431\u0430 16.02.24.cpp",
+              "ToolTip": "C:\\Users\\ores-\\source\\repos\\leetcode\\1 \u043B\u0430\u0431\u0430 16.02.24\\1 \u043B\u0430\u0431\u0430 16.02.24\\1 \u043B\u0430\u0431\u0430 16.02.24.cpp",
+              "RelativeToolTip": "1 \u043B\u0430\u0431\u0430 16.02.24\\1 \u043B\u0430\u0431\u0430 16.02.24.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-01T20:48:00.011Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LZ77.h",
+              "DocumentMoniker": "C:\\Users\\ores-\\source\\repos\\leetcode\\1 \u043B\u0430\u0431\u0430 16.02.24\\1 \u043B\u0430\u0431\u0430 16.02.24\\LZ77.h",
+              "RelativeDocumentMoniker": "1 \u043B\u0430\u0431\u0430 16.02.24\\LZ77.h",
+              "ToolTip": "C:\\Users\\ores-\\source\\repos\\leetcode\\1 \u043B\u0430\u0431\u0430 16.02.24\\1 \u043B\u0430\u0431\u0430 16.02.24\\LZ77.h",
+              "RelativeToolTip": "1 \u043B\u0430\u0431\u0430 16.02.24\\LZ77.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-07T11:50:38.914Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -42,67 +77,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "1 \u043B\u0430\u0431\u0430 16.02.24.cpp",
-              "DocumentMoniker": "C:\\Users\\ores-\\source\\repos\\leetcode\\1 \u043B\u0430\u0431\u0430 16.02.24\\1 \u043B\u0430\u0431\u0430 16.02.24\\1 \u043B\u0430\u0431\u0430 16.02.24.cpp",
-              "RelativeDocumentMoniker": "1 \u043B\u0430\u0431\u0430 16.02.24\\1 \u043B\u0430\u0431\u0430 16.02.24.cpp",
-              "ToolTip": "C:\\Users\\ores-\\source\\repos\\leetcode\\1 \u043B\u0430\u0431\u0430 16.02.24\\1 \u043B\u0430\u0431\u0430 16.02.24\\1 \u043B\u0430\u0431\u0430 16.02.24.cpp",
-              "RelativeToolTip": "1 \u043B\u0430\u0431\u0430 16.02.24\\1 \u043B\u0430\u0431\u0430 16.02.24.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "DocumentIndex": 4,
+              "Title": "RLE.cpp",
+              "DocumentMoniker": "C:\\Users\\ores-\\source\\repos\\leetcode\\1 \u043B\u0430\u0431\u0430 16.02.24\\1 \u043B\u0430\u0431\u0430 16.02.24\\RLE.cpp",
+              "RelativeDocumentMoniker": "1 \u043B\u0430\u0431\u0430 16.02.24\\RLE.cpp",
+              "ToolTip": "C:\\Users\\ores-\\source\\repos\\leetcode\\1 \u043B\u0430\u0431\u0430 16.02.24\\1 \u043B\u0430\u0431\u0430 16.02.24\\RLE.cpp",
+              "RelativeToolTip": "1 \u043B\u0430\u0431\u0430 16.02.24\\RLE.cpp",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAlwFMAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-01T20:48:00.011Z",
+              "WhenOpened": "2024-04-07T10:04:36.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Huffman Coding.h",
+              "DocumentMoniker": "C:\\Users\\ores-\\source\\repos\\leetcode\\1 \u043B\u0430\u0431\u0430 16.02.24\\1 \u043B\u0430\u0431\u0430 16.02.24\\Huffman Coding.h",
+              "RelativeDocumentMoniker": "1 \u043B\u0430\u0431\u0430 16.02.24\\Huffman Coding.h",
+              "ToolTip": "C:\\Users\\ores-\\source\\repos\\leetcode\\1 \u043B\u0430\u0431\u0430 16.02.24\\1 \u043B\u0430\u0431\u0430 16.02.24\\Huffman Coding.h",
+              "RelativeToolTip": "1 \u043B\u0430\u0431\u0430 16.02.24\\Huffman Coding.h",
+              "ViewState": "AQIAABIAAAAAAAAAAAAqwB0AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-06T13:04:09.691Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Huffman Coding.cpp",
+              "DocumentMoniker": "C:\\Users\\ores-\\source\\repos\\leetcode\\1 \u043B\u0430\u0431\u0430 16.02.24\\1 \u043B\u0430\u0431\u0430 16.02.24\\Huffman Coding.cpp",
+              "RelativeDocumentMoniker": "1 \u043B\u0430\u0431\u0430 16.02.24\\Huffman Coding.cpp",
+              "ToolTip": "C:\\Users\\ores-\\source\\repos\\leetcode\\1 \u043B\u0430\u0431\u0430 16.02.24\\1 \u043B\u0430\u0431\u0430 16.02.24\\Huffman Coding.cpp",
+              "RelativeToolTip": "1 \u043B\u0430\u0431\u0430 16.02.24\\Huffman Coding.cpp",
+              "ViewState": "AQIAACEAAAAAAAAAAAAlwC4AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-06T13:13:00.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "final_compressor.h",
               "DocumentMoniker": "C:\\Users\\ores-\\source\\repos\\leetcode\\1 \u043B\u0430\u0431\u0430 16.02.24\\1 \u043B\u0430\u0431\u0430 16.02.24\\final_compressor.h",
               "RelativeDocumentMoniker": "1 \u043B\u0430\u0431\u0430 16.02.24\\final_compressor.h",
               "ToolTip": "C:\\Users\\ores-\\source\\repos\\leetcode\\1 \u043B\u0430\u0431\u0430 16.02.24\\1 \u043B\u0430\u0431\u0430 16.02.24\\final_compressor.h",
               "RelativeToolTip": "1 \u043B\u0430\u0431\u0430 16.02.24\\final_compressor.h",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACUAAAAYAAAA",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAADAAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-01T18:28:52.944Z",
+              "WhenOpened": "2024-04-05T19:18:53.671Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "final_compressor.cpp",
               "DocumentMoniker": "C:\\Users\\ores-\\source\\repos\\leetcode\\1 \u043B\u0430\u0431\u0430 16.02.24\\1 \u043B\u0430\u0431\u0430 16.02.24\\final_compressor.cpp",
               "RelativeDocumentMoniker": "1 \u043B\u0430\u0431\u0430 16.02.24\\final_compressor.cpp",
               "ToolTip": "C:\\Users\\ores-\\source\\repos\\leetcode\\1 \u043B\u0430\u0431\u0430 16.02.24\\1 \u043B\u0430\u0431\u0430 16.02.24\\final_compressor.cpp",
               "RelativeToolTip": "1 \u043B\u0430\u0431\u0430 16.02.24\\final_compressor.cpp",
-              "ViewState": "AQIAAOoAAAAAAAAAAAASwOsAAAAlAAAA",
+              "ViewState": "AQIAACwBAAAAAAAAAAAAADUBAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-04-01T18:32:15.85Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MTF.h",
-              "DocumentMoniker": "C:\\Users\\ores-\\source\\repos\\leetcode\\1 \u043B\u0430\u0431\u0430 16.02.24\\1 \u043B\u0430\u0431\u0430 16.02.24\\MTF.h",
-              "RelativeDocumentMoniker": "1 \u043B\u0430\u0431\u0430 16.02.24\\MTF.h",
-              "ToolTip": "C:\\Users\\ores-\\source\\repos\\leetcode\\1 \u043B\u0430\u0431\u0430 16.02.24\\1 \u043B\u0430\u0431\u0430 16.02.24\\MTF.h",
-              "RelativeToolTip": "1 \u043B\u0430\u0431\u0430 16.02.24\\MTF.h",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAYwDQAAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-03-30T20:51:55.427Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MTF.cpp",
-              "DocumentMoniker": "C:\\Users\\ores-\\source\\repos\\leetcode\\1 \u043B\u0430\u0431\u0430 16.02.24\\1 \u043B\u0430\u0431\u0430 16.02.24\\MTF.cpp",
-              "RelativeDocumentMoniker": "1 \u043B\u0430\u0431\u0430 16.02.24\\MTF.cpp",
-              "ToolTip": "C:\\Users\\ores-\\source\\repos\\leetcode\\1 \u043B\u0430\u0431\u0430 16.02.24\\1 \u043B\u0430\u0431\u0430 16.02.24\\MTF.cpp",
-              "RelativeToolTip": "1 \u043B\u0430\u0431\u0430 16.02.24\\MTF.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-30T20:51:50.523Z",
               "EditorCaption": ""
             }
           ]

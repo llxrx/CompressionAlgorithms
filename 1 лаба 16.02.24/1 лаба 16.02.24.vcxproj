@@ -104,10 +104,15 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -129,24 +134,27 @@
   <ItemGroup>
     <ClCompile Include="1 лаба 16.02.24.cpp" />
     <ClCompile Include="Arithmetic_coding.cpp" />
+    <ClCompile Include="BinaryFile.cpp" />
     <ClCompile Include="BTW.cpp" />
     <ClCompile Include="Entropia.cpp" />
+    <ClCompile Include="fast_BWT.cpp" />
     <ClCompile Include="final_compressor.cpp" />
+    <ClCompile Include="Huffman Coding.cpp" />
     <ClCompile Include="MTF.cpp" />
-    <ClCompile Include="OPEN_BWT_FILE.cpp" />
     <ClCompile Include="RLE.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Arithmetic_coding.h" />
+    <ClInclude Include="BinaryFile.h" />
     <ClInclude Include="BTW.h" />
     <ClInclude Include="Entropia.h" />
+    <ClInclude Include="fast_BWT.h" />
     <ClInclude Include="final_compressor.h" />
+    <ClInclude Include="Huffman Coding.h" />
+    <ClInclude Include="library.h" />
+    <ClInclude Include="LZ77.h" />
     <ClInclude Include="MTF.h" />
-    <ClInclude Include="OPEN_BWT_FILE.h" />
     <ClInclude Include="RLE.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="test.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

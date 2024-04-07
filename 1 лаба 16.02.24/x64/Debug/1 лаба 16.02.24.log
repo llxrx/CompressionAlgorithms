@@ -1,7 +1,27 @@
 ﻿  final_compressor.cpp
-C:\Users\ores-\source\repos\leetcode\1 лаба 16.02.24\1 лаба 16.02.24\final_compressor.cpp(73,6): warning C4101: choice: неиспользованная локальная переменная
-C:\Users\ores-\source\repos\leetcode\1 лаба 16.02.24\1 лаба 16.02.24\final_compressor.cpp(72,6): warning C4101: size: неиспользованная локальная переменная
-C:\Users\ores-\source\repos\leetcode\1 лаба 16.02.24\1 лаба 16.02.24\final_compressor.cpp(120,20): warning C4267: инициализация: преобразование из "size_t" в "unsigned int"; возможна потеря данных
-C:\Users\ores-\source\repos\leetcode\1 лаба 16.02.24\1 лаба 16.02.24\final_compressor.cpp(121,25): warning C4267: инициализация: преобразование из "size_t" в "unsigned int"; возможна потеря данных
-C:\Users\ores-\source\repos\leetcode\1 лаба 16.02.24\1 лаба 16.02.24\final_compressor.cpp(130,14): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\ores-\source\repos\leetcode\1 лаба 16.02.24\1 лаба 16.02.24\final_compressor.cpp(101,20): warning C4267: инициализация: преобразование из "size_t" в "unsigned int"; возможна потеря данных
+C:\Users\ores-\source\repos\leetcode\1 лаба 16.02.24\1 лаба 16.02.24\final_compressor.cpp(102,25): warning C4267: инициализация: преобразование из "size_t" в "unsigned int"; возможна потеря данных
+C:\Users\ores-\source\repos\leetcode\1 лаба 16.02.24\1 лаба 16.02.24\final_compressor.cpp(111,14): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\ores-\source\repos\leetcode\1 лаба 16.02.24\1 лаба 16.02.24\final_compressor.cpp(115,37): warning C4244: +=: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\ores-\source\repos\leetcode\1 лаба 16.02.24\1 лаба 16.02.24\final_compressor.cpp(119,39): warning C4244: +=: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\ores-\source\repos\leetcode\1 лаба 16.02.24\1 лаба 16.02.24\final_compressor.cpp(142,31): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\ores-\source\repos\leetcode\1 лаба 16.02.24\1 лаба 16.02.24\final_compressor.cpp(143,30): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\ores-\source\repos\leetcode\1 лаба 16.02.24\1 лаба 16.02.24\final_compressor.cpp(160,6): warning C4101: choice: неиспользованная локальная переменная
+C:\Users\ores-\source\repos\leetcode\1 лаба 16.02.24\1 лаба 16.02.24\final_compressor.cpp(159,6): warning C4101: size: неиспользованная локальная переменная
+C:\Users\ores-\source\repos\leetcode\1 лаба 16.02.24\1 лаба 16.02.24\final_compressor.cpp(191,20): warning C4267: инициализация: преобразование из "size_t" в "unsigned int"; возможна потеря данных
+C:\Users\ores-\source\repos\leetcode\1 лаба 16.02.24\1 лаба 16.02.24\final_compressor.cpp(192,25): warning C4267: инициализация: преобразование из "size_t" в "unsigned int"; возможна потеря данных
+C:\Users\ores-\source\repos\leetcode\1 лаба 16.02.24\1 лаба 16.02.24\final_compressor.cpp(201,14): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\ores-\source\repos\leetcode\1 лаба 16.02.24\1 лаба 16.02.24\final_compressor.cpp(205,41): warning C4244: +=: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\ores-\source\repos\leetcode\1 лаба 16.02.24\1 лаба 16.02.24\final_compressor.cpp(209,41): warning C4244: +=: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\ores-\source\repos\leetcode\1 лаба 16.02.24\1 лаба 16.02.24\final_compressor.cpp(279,20): warning C4267: инициализация: преобразование из "size_t" в "unsigned int"; возможна потеря данных
+C:\Users\ores-\source\repos\leetcode\1 лаба 16.02.24\1 лаба 16.02.24\final_compressor.cpp(280,25): warning C4267: инициализация: преобразование из "size_t" в "unsigned int"; возможна потеря данных
+C:\Users\ores-\source\repos\leetcode\1 лаба 16.02.24\1 лаба 16.02.24\final_compressor.cpp(289,14): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\ores-\source\repos\leetcode\1 лаба 16.02.24\1 лаба 16.02.24\final_compressor.cpp(293,41): warning C4244: +=: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\ores-\source\repos\leetcode\1 лаба 16.02.24\1 лаба 16.02.24\final_compressor.cpp(301,41): warning C4244: +=: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\ores-\source\repos\leetcode\1 лаба 16.02.24\1 лаба 16.02.24\final_compressor.cpp(305,41): warning C4244: +=: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\ores-\source\repos\leetcode\1 лаба 16.02.24\1 лаба 16.02.24\final_compressor.cpp(310,78): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\ores-\source\repos\leetcode\1 лаба 16.02.24\1 лаба 16.02.24\final_compressor.cpp(310,40): warning C4244: +=: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\ores-\source\repos\leetcode\1 лаба 16.02.24\1 лаба 16.02.24\final_compressor.cpp(312,77): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\ores-\source\repos\leetcode\1 лаба 16.02.24\1 лаба 16.02.24\final_compressor.cpp(312,40): warning C4244: +=: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\ores-\source\repos\leetcode\1 лаба 16.02.24\1 лаба 16.02.24\final_compressor.cpp(320,40): warning C4244: +=: преобразование "__int64" в "int", возможна потеря данных
   1 лаба 16.02.24.vcxproj -> C:\Users\ores-\source\repos\leetcode\1 лаба 16.02.24\x64\Debug\1 лаба 16.02.24.exe

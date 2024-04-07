@@ -1,9 +1,5 @@
 #pragma once
-#include <iostream>
-#include <fstream>
-#include <string>
-#include <algorithm>
-#include <vector>
+#include "library.h"
 
 using namespace std;
 
